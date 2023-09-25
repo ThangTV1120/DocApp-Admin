@@ -1,14 +1,12 @@
 import React from 'react'
-import { Button, Form } from 'react-bootstrap';
-import * as formik from 'formik';
-import { AuthValidation } from '../../../validation/auth';
+
 import logo from "../../../assets/images/logo-dark.png"
 import logo_light from "../../../assets/images/logo-light.png"
 
 const Logout = () => {
     return (
 
-        <div className="account-pages mt-5 mb-5 authentication-bg">
+        <div className="account-pages py-5 authentication-bg">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-8 col-lg-6 col-xl-4">
@@ -23,11 +21,7 @@ const Logout = () => {
                                             </span>
                                         </a>
 
-                                        <a href="index.html" className="logo logo-light text-center">
-                                            <span className="logo-lg">
-                                                <img src={logo_light} alt="" height="22" />
-                                            </span>
-                                        </a>
+                                      
                                     </div>
                                 </div>
                                 <div className="text-center">

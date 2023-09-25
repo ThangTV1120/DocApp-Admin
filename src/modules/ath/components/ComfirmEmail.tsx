@@ -7,7 +7,7 @@ import logoComfirmEmail from "../../../assets/images/mail_confirm.png"
 const ComfirmEmail = () => {
     return (
         
-        <div className="account-pages mt-5 mb-5 authentication-bg">
+        <div className="account-pages py-5 authentication-bg">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-8 col-lg-6 col-xl-4">

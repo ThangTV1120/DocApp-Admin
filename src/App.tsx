@@ -1,5 +1,5 @@
 import { useState } from 'react'
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import {SignIn} from './modules/ath/components/SignIn';
 import {Register} from './modules/ath/components/Register';
@@ -14,12 +14,12 @@ function App() {
 
   return (
     <>
-     {/* <SignIn></SignIn>
-     <Register></Register>
-     <ComfirmEmail></ComfirmEmail>
+     {/* <SignIn></SignIn> */}
+     {/* <Register></Register> */}
+     {/* <ComfirmEmail></ComfirmEmail> */}
      <Logout></Logout>
-     <RecoverPassword/> */}
-     <LockScreen></LockScreen>
+     {/* <RecoverPassword/> */}
+     {/* <LockScreen></LockScreen> */}
     </>
   )
 }
